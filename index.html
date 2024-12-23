@@ -18,16 +18,15 @@
       <a-marker preset="hiro">
         <!-- 3D Food Plate Model -->
         <a-entity
-          camera="fov: 80"
           gltf-model="#food-plate"
           scale="0.1 0.1 0.1"
-          position="0 0 0"
+          position="0 0 -1"
         >
         </a-entity>
       </a-marker>
 
       <!-- AR Camera -->
-      <a-entity camera></a-entity>
+      <a-entity camera="fov: 80"></a-entity>
     </a-scene>
   </body>
 </html>
