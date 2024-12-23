@@ -9,6 +9,11 @@
 </head>
 <body style="margin: 0; overflow: hidden;">
   <a-scene embedded arjs>
+    <!-- Asset Management System -->
+    <a-assets>
+      <a-asset-item id="food-plate" src="assets/food-plate.glb"></a-asset-item>
+    </a-assets>
+
     <!-- Marker -->
     <a-marker preset="hiro">
       <!-- 3D Food Plate Model -->
@@ -22,10 +27,5 @@
     <!-- AR Camera -->
     <a-entity camera></a-entity>
   </a-scene>
-
-  <!-- Food Plate GLTF Asset -->
-  <a-assets>
-    <a-asset-item id="food-plate" src="assets/pizza.glb"></a-asset-item>
-  </a-assets>
 </body>
 </html>
